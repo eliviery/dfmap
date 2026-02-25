@@ -1,18 +1,20 @@
 {
   "name": "dfmap",
   "version": "1.0.0",
-  "description": "Este projeto contém arquivos HTML e JSON relacionados às regiões de Arapoanga e Planaltina.",
-  "main": "server.js",
+  "description": "Mapa residencial do Distrito Federal.",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node app.js",
+    "dev": "node --watch app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "fastify": "^5.7.4",
     "mongoose": "^9.2.1",
     "stream-json": "^1.9.1"

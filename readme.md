@@ -1,8 +1,14 @@
-# dfmap
 
-Este projeto utiliza uma população de desenhos geométricos de todos os lotes do Distrito Federal e seus dados como tamanho, localização, endereço, etc., extraídos da Plataforma ArcGIS, transferidos via GeoJSON para um Banco de Dados MongoDB.
 
-> Nota
+# ![](img/favicon.svg) dfmap
+
+Mapa residencial do Distrito Federal
+
+---
+
+Este projeto utiliza uma população de desenhos geométricos de todos os lotes do Distrito Federal e seus dados, como tamanho, localização, endereço, etc., extraídos da Plataforma ArcGIS, transferidos via GeoJSON para um Banco de Dados MongoDB.
+
+> Nota:
   Durante a normalização dos dados geométricos, um lote apresentou falha.
   Dados do lote:
 
@@ -57,19 +63,19 @@ Projeto criado por Eli.
 
 Revisar durante o desenvolvimento:
 
-• React como base sólida para aplicações front-end em 2026;
-• Vite como padrão para projetos React sem framework;
-• Next.js para aplicações que exigem SEO, SSR e cache;
-• TanStack Router como alternativa moderna ao React Router DOM;
-• Tailwind CSS fortalecido pela integração com IA e componentização;
-• TanStack Query (React Query) com Suspense para comunicação de dados;
-• Zustand como padrão de mercado para gerenciamento de estado;
-• Radix UI e Base UI para componentes acessíveis e desacoplados;
-• React Hook Form com Zod para formulários e validação de dados;
-• Playwright como ferramenta essencial para testes automatizados;
-• Arquiteturas Local First e Offline First como tendência;
-• Ferramentas como Electric SQL, TanStack DB e Xero;
-• Maior aproximação entre design e desenvolvimento front-end impulsionada pela IA.
+- React como base sólida para aplicações front-end em 2026;
+- Vite como padrão para projetos React sem framework;
+- Next.js para aplicações que exigem SEO, SSR e cache;
+- TanStack Router como alternativa moderna ao React Router DOM;
+- Tailwind CSS fortalecido pela integração com IA e componentização;
+- TanStack Query (React Query) com Suspense para comunicação de dados;
+- Zustand como padrão de mercado para gerenciamento de estado;
+- Radix UI e Base UI para componentes acessíveis e desacoplados;
+- React Hook Form com Zod para formulários e validação de dados;
+- Playwright como ferramenta essencial para testes automatizados;
+- Arquiteturas Local First e Offline First como tendência;
+- Ferramentas como Electric SQL, TanStack DB e Xero;
+- Maior aproximação entre design e desenvolvimento front-end impulsionada pela IA.
 
 Alterado para Branch DEV
 

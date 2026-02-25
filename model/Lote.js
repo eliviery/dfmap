@@ -4,24 +4,24 @@ const { Schema } = mongoose;
 
 const LoteSchema = new Schema({
   objectid:{ type: Number, required: true },
-  ct_ciu:{ type: String, default: "0121IV4B0004"},
+  ct_ciu:{ type: String, default: ""},
   x:{ type: Number, required: true },
   y:{ type: Number, required: true },
   lt_endereco:{ type: String, default: null },
-  lt_cep:{ type: String, default: "70800210"},
-  lt_setor:{ type: String, default: "SHTN"},
-  lt_quadra:{ type: String, default: "TRECHO 1"},
-  lt_conjunto:{ type: String, default: "POLO 3"},
-  lt_lote:{ type: String, default: "LT 8"},
+  lt_cep:{ type: String, default: ""},
+  lt_setor:{ type: String, default: ""},
+  lt_quadra:{ type: String, default: ""},
+  lt_conjunto:{ type: String, default: ""},
+  lt_lote:{ type: String, default: ""},
   lt_nome:{ type: String, default: null},
-  lt_ra:{ type: Number, default: 1},
+  lt_ra:{ type: Number, default: 0},
   ac_area_ce:{ type: Number, default: 0.0},
   ac_area_cpv:{ type: Number, default: 0.0},
   ac_area_cp:{ type: Number, default: 0.0},
   ac_area_cq:{ type: Number, default: 0.0},
   ac_area_cm:{ type: Number, default: 0.0},
   ac_area_ct:{ type: Number, default: 0.0},
-  ct_origem:{ type: Number, default: 2},
+  ct_origem:{ type: Number, default: 0},
   geometry: {
     type: {
       type: String, // "MultiPolygon"
