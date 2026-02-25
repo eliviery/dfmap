@@ -1,0 +1,20 @@
+{
+  "name": "dfmap",
+  "version": "1.0.0",
+  "description": "Este projeto contém arquivos HTML e JSON relacionados às regiões de Arapoanga e Planaltina.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "fastify": "^5.7.4",
+    "mongoose": "^9.2.1",
+    "stream-json": "^1.9.1"
+  }
+}

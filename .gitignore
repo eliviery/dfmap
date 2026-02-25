@@ -1,1 +1,6 @@
 .vscode/
+dfmap.qgz
+df_EPSG4326.geojson
+df_EPSG4326.qmd
+df.qmd
+.env
